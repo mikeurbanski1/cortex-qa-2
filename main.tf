@@ -4,3 +4,10 @@ resource "aws_s3_bucket" "b" {
     tag = "tag"
   }
 }
+
+resource "aws_ebs_volume" "v" {
+  size = 40
+  tags = {
+    tag = "tag"
+  }
+}

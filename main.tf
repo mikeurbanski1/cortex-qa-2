@@ -9,5 +9,6 @@ resource "aws_ebs_volume" "v" {
   size = 40
   tags = {
     tag = "tag"
+    another = "hello"
   }
 }

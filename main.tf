@@ -10,4 +10,5 @@ resource "aws_ebs_volume" "v" {
   tags = {
     tag = "tag"
   }
+  encrypted = false
 }

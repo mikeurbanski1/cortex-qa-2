@@ -3,6 +3,7 @@ resource "aws_s3_bucket" "b" {
   tags = {
     tag = "tag"
   }
+  attribute_at_end = 123
 }
 
 resource "aws_ebs_volume" "v" {
